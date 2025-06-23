@@ -1,4 +1,4 @@
-from src.math_operation import add, subtract
+from src.math.math_operation import add, subtract
 
 def test_add():
     assert add(2, 3) == 5 ## assert will check if the condition is true
